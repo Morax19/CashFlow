@@ -1284,6 +1284,7 @@ def generate_pdf():
     response.headers['Content-Disposition'] = f'inline; filename="{safe_filename}"'
     return response
 
+# ----  RUTAS APP DOCUMENTOS ----
 
 
 if __name__ == '__main__':
